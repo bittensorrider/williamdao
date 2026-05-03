@@ -1,2 +1,29 @@
 # william-portfolios
-Personal Portfolios Website of William's
+
+Personal Portfolios Website of William Dao's
+
+## Prerequisites
+
+```yaml
+node.js: 20.20.2
+npm: 10.8.2
+
+next.js: 16.0.10
+react: 19.2.0
+```
+
+## Getting Started
+
+```bash
+npm i
+
+npm run dev
+
+npm run build
+
+npm start
+```
+
+Visit http://localhost:3000/
+
+&copy; 2015-2026 All Rights Reserved.
