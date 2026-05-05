@@ -121,14 +121,14 @@ export const portfolioData: PortfolioData = {
       "LLM",
       "Rasa",
       "Hugging Face",
-      "Mistral",
+      "LangChain",
       "FastAPI",
       "gRPC",
+      "Prompt Engineering",
       "OpenAI",
       "Gemini",
       "Claude",
       "Mistral",
-      "Prompt Engineering",
     ],
     web: [
       "React",
@@ -188,7 +188,7 @@ export const portfolioData: PortfolioData = {
   experience: [
     {
       company: "Optlynx Co.,Ltd. - Japan",
-      role: "Senior Software Engineer",
+      role: "Senior Software Engineer (Full-Remote)",
       period: "August, 2023 - November, 2025",
       description: [
         "Built the dashboard for UXBIT trading platform, leveraging Next.js and Tailwind CSS.",
@@ -198,7 +198,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       company: "DrapeFit - US",
-      role: "AI Specialist at Algorithms Team",
+      role: "AI Specialist at Algorithms Team (Full-Remote)",
       period: "October, 2021 - June, 2023",
       description: [
         "Built a cutting-edge multi-tiered AI recommender system to personalize styling recommendations at scale.",
@@ -208,7 +208,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       company: "Value Applications Co.,Ltd. - Japan",
-      role: "Full-Stack Developer",
+      role: "Full-Stack Developer (Full-Remote)",
       period: "January, 2019 - March, 2021",
       description: [
         "Built a childcare nursery management system called Kindy.jp, leveraging React Native, MERN stack and AWS.",
