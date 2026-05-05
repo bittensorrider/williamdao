@@ -12,6 +12,12 @@ next.js: 16.0.10
 react: 19.2.0
 ```
 
+In `.env.local` file:
+
+```env
+NEXT_PUBLIC_WEB3FORMS_KEY=
+```
+
 ## Getting Started
 
 ```bash
