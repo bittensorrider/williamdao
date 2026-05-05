@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
-import { portfolioData } from "@/data/portfolio";
 import { motion } from "framer-motion";
 import { TbArrowRight, TbDownload } from "react-icons/tb";
 import Link from "next/link";
 import Image from "next/image";
+
+import { portfolioData } from "@/data/portfolio";
 import { SocialIcons } from "@/components/ui/SocialIcons";
 
 export const HeroSection = React.memo(function HeroSection() {
@@ -47,7 +48,11 @@ export const HeroSection = React.memo(function HeroSection() {
             </h2>
 
             <p className="text-lg text-slate-400 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0 text-justify lg:text-left">
-              {portfolioData.about}
+              {portfolioData.aboutArr.map((line, index) => (
+                <span key={index} className="block">
+                  {line}
+                </span>
+              ))}
             </p>
 
             <div className="flex flex-col items-center lg:items-start gap-8">

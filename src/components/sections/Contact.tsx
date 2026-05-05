@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState, useCallback } from "react";
-import { portfolioData } from "@/data/portfolio";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { motion } from "framer-motion";
 import {
   TbMail,
@@ -11,6 +9,9 @@ import {
   TbCircleCheck,
   TbAlertCircle,
 } from "react-icons/tb";
+
+import { portfolioData } from "@/data/portfolio";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export const ContactSection = React.memo(function ContactSection() {
   const [formState, setFormState] = useState<
@@ -58,7 +59,7 @@ export const ContactSection = React.memo(function ContactSection() {
         setTimeout(() => setFormState("idle"), 5000);
       }
     },
-    [formData]
+    [formData],
   );
 
   return (
@@ -66,7 +67,7 @@ export const ContactSection = React.memo(function ContactSection() {
       <div className="container mx-auto px-4 xl:px-24">
         <SectionHeading
           title="Get In Touch"
-          subtitle="Let's work together"
+          subtitle="Let us build your business together"
           center={false}
         />
 
@@ -81,12 +82,13 @@ export const ContactSection = React.memo(function ContactSection() {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-slate-100">
-                Let&apos;s talk about your next project
+                Let me know about your next project, if you don't mind
               </h3>
               <p className="text-slate-400">
                 Feel free to reach out for collaborations, freelance projects,
-                or full-time opportunities. I&apos;d be happy to hear from you.
-                Fill out the form or contact me directly via email to connect.
+                or full-time opportunities. I&apos;d be always happy to hear
+                from you. Fill out the form or contact me directly via email to
+                connect.
               </p>
             </div>
 
@@ -115,8 +117,8 @@ export const ContactSection = React.memo(function ContactSection() {
                   <TbMapPin size={24} />
                 </div>
                 <div>
-                  <p className="text-sm text-slate-500">Based in</p>
-                  <p className="font-medium">Delhi, India</p>
+                  <p className="text-sm text-slate-500">Available for</p>
+                  <p className="font-medium">Anywhere, in the World</p>
                 </div>
               </div>
             </div>
@@ -148,7 +150,7 @@ export const ContactSection = React.memo(function ContactSection() {
                       setFormData({ ...formData, name: e.target.value })
                     }
                     className="w-full h-14 bg-slate-950 border border-slate-800 rounded-lg px-4 py-2 text-slate-100 focus:outline-none focus:border-primary transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Your Full Name"
                   />
                 </div>
 
@@ -168,7 +170,7 @@ export const ContactSection = React.memo(function ContactSection() {
                       setFormData({ ...formData, email: e.target.value })
                     }
                     className="w-full h-14 bg-slate-950 border border-slate-800 rounded-lg px-4 py-2 text-slate-100 focus:outline-none focus:border-primary transition-colors"
-                    placeholder="john@example.com"
+                    placeholder="your@email.com"
                   />
                 </div>
               </div>

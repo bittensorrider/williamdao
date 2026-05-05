@@ -1,13 +1,15 @@
 import React from "react";
-import { portfolioData } from "@/data/portfolio";
 import {
   TbBrandGithub,
   TbBrandLinkedin,
   TbBrandX,
   TbBrandInstagram,
   TbBrandMedium,
+  TbBrandReddit,
   TbMail,
 } from "react-icons/tb";
+
+import { portfolioData } from "@/data/portfolio";
 
 const iconMap: Record<
   string,
@@ -19,6 +21,7 @@ const iconMap: Record<
   X: TbBrandX,
   Instagram: TbBrandInstagram,
   Medium: TbBrandMedium,
+  Reddit: TbBrandReddit,
   Mail: TbMail,
 };
 

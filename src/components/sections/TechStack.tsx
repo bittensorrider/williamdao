@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 
 import { portfolioData } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { motion } from "framer-motion";
 
 const SkillCategory = React.memo(function SkillCategory({
   title,
@@ -48,10 +48,13 @@ export const TechStack = React.memo(function TechStack() {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <SkillCategory title="Mobile" skills={portfolioData.skills.mobile} />
         <SkillCategory
-          title="Libraries"
-          skills={portfolioData.skills.libraries}
+          title="Mobile / Desktop"
+          skills={portfolioData.skills.mobile}
+        />
+        <SkillCategory
+          title="Artificial Intelligence"
+          skills={portfolioData.skills.ai}
         />
         <SkillCategory title="Web" skills={portfolioData.skills.web} />
         <SkillCategory title="Tools" skills={portfolioData.skills.tools} />

@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-
-import { Project } from "@/data/portfolio";
 import { motion } from "framer-motion";
 import { TbBrandGithub, TbExternalLink } from "react-icons/tb";
 import Link from "next/link";
 import Image from "next/image";
+
+import { Project } from "@/data/portfolio";
 
 export const ProjectCard = React.memo(function ProjectCard({
   project,
@@ -60,7 +60,7 @@ export const ProjectCard = React.memo(function ProjectCard({
               target="_blank"
               className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
             >
-              <TbBrandGithub size={16} /> Code
+              <TbBrandGithub size={16} /> Code Repo
             </Link>
           )}
           {project.link && (
@@ -69,7 +69,7 @@ export const ProjectCard = React.memo(function ProjectCard({
               target="_blank"
               className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
             >
-              <TbExternalLink size={16} /> Live Demo
+              <TbExternalLink size={16} /> Live Site
             </Link>
           )}
         </div>

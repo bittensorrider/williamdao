@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+
 import "./globals.css";
+
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { portfolioData } from "@/data/portfolio";
@@ -23,7 +24,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.vipuljha.com"),
+  metadataBase: new URL("https://www.williamdao.com"),
   title: {
     template: `%s | ${portfolioData.name}`,
     default: `${portfolioData.name} - ${portfolioData.role}`,
@@ -39,9 +40,7 @@ export const metadata: Metadata = {
     "Chromium Developer",
     "Portfolio",
     "Next.js Portfolio",
-    "Vipul Jha",
     "lordarcadius",
-    "vipul jha xda",
     "Primebook",
     "Primebook India",
     "Senior Software Engineer",
@@ -51,7 +50,7 @@ export const metadata: Metadata = {
     "Kotlin",
     "Flutter",
   ],
-  authors: [{ name: portfolioData.name, url: "https://www.vipuljha.com" }],
+  authors: [{ name: portfolioData.name, url: "https://www.williamdao.com" }],
   creator: portfolioData.name,
   publisher: portfolioData.name,
   formatDetection: {
@@ -62,13 +61,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.vipuljha.com",
+    url: "https://www.williamdao.com",
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     siteName: `${portfolioData.name} Portfolio`,
     images: [
       {
-        url: "https://www.vipuljha.com/images/profile.webp",
+        url: "https://www.williamdao.com/images/profile.jpg",
         width: 1200,
         height: 630,
         alt: `${portfolioData.name} - ${portfolioData.role}`,
@@ -80,7 +79,7 @@ export const metadata: Metadata = {
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     creator: "@lordarcadius",
-    images: ["https://www.vipuljha.com/images/profile.webp"],
+    images: ["https://www.williamdao.com/images/profile.jpg"],
   },
   robots: {
     index: true,
@@ -122,7 +121,6 @@ export default function RootLayout({
         <Navbar />
         <main className="min-h-screen pt-20">{children}</main>
         <Footer />
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS || ""} />
       </body>
     </html>
   );

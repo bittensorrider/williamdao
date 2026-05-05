@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
+import { TbBriefcase } from "react-icons/tb";
 
 import { portfolioData } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { motion } from "framer-motion";
-import { TbBriefcase } from "react-icons/tb";
 
 export const ExperienceSection = React.memo(function ExperienceSection() {
   return (
