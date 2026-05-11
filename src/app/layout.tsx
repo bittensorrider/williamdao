@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/icons/apple-touch-icon.png",
+    apple: "/icons/apple-touch-icon.jpg",
     shortcut: "/favicon.ico",
   },
 };
