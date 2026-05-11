@@ -1,6 +1,6 @@
-# william-hoang-minh
+# william
 
-Personal Portfolios Website of William Hoang Minh's
+Personal Portfolios Website of William Wei Ming's
 
 ## Prerequisites
 

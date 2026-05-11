@@ -16,16 +16,16 @@ export function StructuredData() {
       .map((s) => s.url),
     worksFor: {
       "@type": "Organization",
-      name: "Primebook India",
+      name: "US Companies",
     },
     knowsAbout: [
-      "Android Development",
-      "Flutter Development",
-      "Kotlin",
-      "Jetpack Compose",
+      "Bittensor",
+      "Web Development",
       "Mobile App Development",
-      "AOSP",
-      "Chromium",
+      "Game Development",
+      "AI Development",
+      "Reverse Engineering",
+      "Cryptocurrency",
     ],
   };
 
@@ -45,7 +45,7 @@ export function StructuredData() {
   const profilePageSchema = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    dateCreated: "2024-11-20",
+    dateCreated: "2020-05-18",
     dateModified: new Date().toISOString().split("T")[0],
     mainEntity: {
       "@type": "Person",

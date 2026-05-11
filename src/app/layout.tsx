@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "US Timezone Friendly",
     "Remote Contractor",
     "Bittensor Rider",
-    "Based in Ho Chi Minh City, Vietnam",
+    "Based in Selangor, Malaysia",
   ],
   authors: [
     { name: portfolioData.name, url: "https://william-minh.vercel.app/" },

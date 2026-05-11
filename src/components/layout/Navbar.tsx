@@ -94,7 +94,7 @@ export function Navbar() {
           onClick={(e) => handleNavClick(e, "#about")}
           className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
         >
-          William<span className="text-white"> Minh</span>.
+          William<span className="text-white"> Wei Ming</span>.
         </Link>
 
         {/* Desktop Nav */}

@@ -45,9 +45,9 @@ export interface PortfolioData {
 }
 
 export const portfolioData: PortfolioData = {
-  name: "William Hoang Minh",
+  name: "William Wei Ming",
   role: "Full-Stack Architect | SWE | Trust Dev",
-  about: "Hi 👋 I’m William from Hanoi, Vietnam 🇻🇳",
+  about: "Hi 👋 I’m William from Malaysia 🇲🇾",
   aboutArr: [
     "🏆 Senior Full-Stack Engineer 👨‍💻",
     "🚀 Build Scalable Systems ⚙️",
@@ -58,7 +58,7 @@ export const portfolioData: PortfolioData = {
     "🇺🇸 US Timezone Friendly ⏰",
     "🌐 Remote Contractor 📡",
     "🧠 Bittensor Rider 🚴‍♀️",
-    "🏠 Based in Ho Chi Minh City, Vietnam 🇻🇳",
+    "🏠 Based in Selangor, Malaysia 🇲🇾",
   ],
   profileImage: "/images/profile.jpg",
   blogUrl: "https://medium.com/@bittensorrider",
