@@ -1,6 +1,6 @@
-# william-portfolios
+# william-hoang-minh
 
-Personal Portfolios Website of William Dao's
+Personal Portfolios Website of William Hoang Minh's
 
 ## Prerequisites
 
