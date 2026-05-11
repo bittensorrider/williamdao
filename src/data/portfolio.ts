@@ -45,7 +45,7 @@ export interface PortfolioData {
 }
 
 export const portfolioData: PortfolioData = {
-  name: "William Dao",
+  name: "William Hoang Minh",
   role: "Full-Stack Architect | SWE | Trust Dev",
   about: "Hi 👋 I’m William from Hanoi, Vietnam 🇻🇳",
   aboutArr: [
@@ -68,15 +68,15 @@ export const portfolioData: PortfolioData = {
       url: "https://github.com/bittensorrider",
       icon: "Github",
     },
-    {
-      platform: "LinkedIn",
-      url: "https://www.linkedin.com/in/william-dao-185aa1407/",
-      icon: "Linkedin",
-    },
+    // {
+    //   platform: "LinkedIn",
+    //   url: "https://www.linkedin.com/in/william-dao-185aa1407/",
+    //   icon: "Linkedin",
+    // },
     {
       platform: "X",
       url: "https://x.com/bittensorrider",
-      icon: "Twitter", // Lucide might not have X yet, using Twitter as fallback or X if available in next step
+      icon: "Twitter",
     },
     {
       platform: "Instagram",
@@ -108,9 +108,9 @@ export const portfolioData: PortfolioData = {
       "Ionic",
       "Electron",
       "Reverse Engineering",
-      "Cocos",
       "Unity",
       "Unreal Engine",
+      "Cocos",
     ],
     ai: [
       "Bittensor",
@@ -138,8 +138,8 @@ export const portfolioData: PortfolioData = {
       "Tailwind CSS",
       "Laravel",
       "CodeIgniter",
-      "Magento 2",
       "WordPress",
+      "Magento 2",
       "Shopify",
       "Django",
       "Flask",
@@ -157,6 +157,7 @@ export const portfolioData: PortfolioData = {
       "Nginx",
       "Web3",
       "DeFi",
+      "Cryptocurrency",
     ],
     tools: [
       "iMac",
@@ -168,21 +169,21 @@ export const portfolioData: PortfolioData = {
       "Visual Studio",
       "VS Code",
       "Cursor",
-      "IntelliJ IDEA",
       "PyCharm",
+      "IntelliJ IDEA",
       "Git",
-      "GitHub Copilot",
       "GitHub Desktop",
       "Postman",
       "Google Chrome",
+      "Safari",
       "Figma",
       "Adobe Photoshop",
       "Adobe XD",
       "Sketch",
       "Slack",
       "MS Teams",
-      "Telegram",
       "WhatsApp",
+      "Telegram",
     ],
   },
   experience: [

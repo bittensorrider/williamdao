@@ -191,7 +191,7 @@ export const ContactSection = React.memo(function ContactSection() {
                   }
                   rows={4}
                   className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-primary transition-colors resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about your project / idea / problem ..."
                 />
               </div>
 
