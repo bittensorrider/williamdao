@@ -89,6 +89,16 @@ export const portfolioData: PortfolioData = {
       icon: "Reddit",
     },
     {
+      platform: "Discord",
+      url: "https://discord.gg/M4pJbNhQc",
+      icon: "Discord",
+    },
+    {
+      platform: "WhatsApp",
+      url: "https://wa.me/15097803683",
+      icon: "Whatsapp",
+    },
+    {
       platform: "Email",
       url: "mailto:bittensorrider@gmail.com",
       icon: "Mail",

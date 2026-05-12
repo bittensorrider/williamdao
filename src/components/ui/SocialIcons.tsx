@@ -7,6 +7,8 @@ import {
   TbBrandMedium,
   TbBrandReddit,
   TbMail,
+  TbBrandDiscord,
+  TbBrandWhatsapp,
 } from "react-icons/tb";
 
 import { portfolioData } from "@/data/portfolio";
@@ -23,6 +25,8 @@ const iconMap: Record<
   Medium: TbBrandMedium,
   Reddit: TbBrandReddit,
   Mail: TbMail,
+  Discord: TbBrandDiscord,
+  Whatsapp: TbBrandWhatsapp,
 };
 
 interface SocialIconsProps {
