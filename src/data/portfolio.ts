@@ -68,11 +68,11 @@ export const portfolioData: PortfolioData = {
       url: "https://github.com/bittensorrider",
       icon: "Github",
     },
-    // {
-    //   platform: "LinkedIn",
-    //   url: "https://www.linkedin.com/in/william-dao-185aa1407/",
-    //   icon: "Linkedin",
-    // },
+    {
+      platform: "LinkedIn",
+      url: "https://www.linkedin.com/in/weiming-william-78a93840a/",
+      icon: "Linkedin",
+    },
     {
       platform: "X",
       url: "https://x.com/bittensorrider",
@@ -83,11 +83,11 @@ export const portfolioData: PortfolioData = {
       url: "https://instagram.com/bittensorrider",
       icon: "Instagram",
     },
-    {
-      platform: "Reddit",
-      url: "https://www.reddit.com/user/bittensorrider/",
-      icon: "Reddit",
-    },
+    // {
+    //   platform: "Reddit",
+    //   url: "https://www.reddit.com/user/bittensorrider/",
+    //   icon: "Reddit",
+    // },
     {
       platform: "Discord",
       url: "https://discord.gg/M4pJbNhQc",
