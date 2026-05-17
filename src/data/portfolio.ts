@@ -68,11 +68,11 @@ export const portfolioData: PortfolioData = {
       url: "https://github.com/bittensorrider",
       icon: "Github",
     },
-    {
-      platform: "LinkedIn",
-      url: "https://www.linkedin.com/in/weiming-william-78a93840a/",
-      icon: "Linkedin",
-    },
+    // {
+    //   platform: "LinkedIn",
+    //   url: "https://www.linkedin.com/in/weiming-william-78a93840a/",
+    //   icon: "Linkedin",
+    // },
     {
       platform: "X",
       url: "https://x.com/bittensorrider",
@@ -100,7 +100,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       platform: "Email",
-      url: "mailto:bittensorrider@gmail.com",
+      url: "mailto:weimingwilliam6@gmail.com",
       icon: "Mail",
     },
   ],
